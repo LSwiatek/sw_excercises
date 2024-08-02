@@ -1,0 +1,6 @@
+Napisz program ktory przyjmuje liczbe od 1 do 100
+Nastepnie zwroci liste ktora zawiera wszystkie liczby od 1 do tej ktora zostala podana
+Ale,
+dla kazdej liczby ktora jest podzielna przez 3, bedzie zwrocone slowo "Fizz"
+dla kazdej liczby ktora jest podzielna przez 5, bedzie zwrocone slowo "Buzz"
+dla kazdej liczby ktora jest podzilna przez 3 oraz 5, bedzie zwrocone slowo "FizzBuzz"

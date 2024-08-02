@@ -1,0 +1,25 @@
+Write a program which will count score for bowling.
+Bowling game consists of 10 Frames. In each frame you may roll up to twice
+* if in first roll you do not knonck down all the pins, you may roll again
+* if first roll knocks down all pins, then it a Strike, and it is the end of frame
+* if you knock down all 10 pins in 2 rolls, then it is a Spare
+
+Scoring is based on the following:
+* if frame is a Strike, then you get 10 plus the sum of the next 2 throws
+* if frame is a Spare, then you get 10 plus the value of the next throw
+* otherwise you get sum of knocked down pins in the frame
+
+If the last frame is Strike, then you may roll 2 additional times
+if last frame is Spare, then you may roll 1 additional time
+
+Max score is 300
+
+Program should accept an array where each value represents a roll and it is the number of pins knocked down (0-10)
+Program should output the score
+
+Example
+Input: [1 ,3, 10, 0, 0, 5, 5, 3, 1, 7, 2, 9, 0, 10, 3, 3, 6, 2]
+Output: 79
+
+Input: [5, 5, 4, 0, 8, 1, 10, 0, 10, 1, 10, 4, 6, 10, 10, 5]
+Output: 186
