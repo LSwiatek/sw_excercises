@@ -3,7 +3,8 @@ and start and end coordinates within this grid.
 Find shortest path from start to end position.
 
 Note: Such maze may contain cycles
-
+Note: A* (a star)
+ Zadanie z gwiazdka: prezentacja graficzna (Pillow)
 
 #############################################################
 #     #       #       #       #     #     #     #       #   #
